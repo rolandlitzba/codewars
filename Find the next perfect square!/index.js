@@ -13,11 +13,11 @@ findNextSquare(114)-- > returns - 1 since 114 is not a perfect
 */
 
 function findNextSquare(sq) {
-    sqRoot = Math.sqrt(sq);
-    console.log(sqRoot);
-    if (sqRoot % 1 === 0) {
-        return Math.pow(sqRoot + 1, 2);
-    } else return -1;
+  sqRoot = Math.sqrt(sq);
+  console.log(sqRoot);
+  if (sqRoot % 1 === 0) {
+    return Math.pow(sqRoot + 1, 2);
+  } else return -1;
 }
 
-module.exports = findNextSquare
+module.exports = findNextSquare;
